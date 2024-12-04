@@ -1,3 +1,6 @@
 [submodule "papers/426marenas-lab2.1"]
 	path = papers/426marenas-lab2.1
 	url = git@github.com:devangel77b/426marenas-lab2.1.git
+[submodule "papers/426davalur-lab2.1"]
+	path = papers/426davalur-lab2.1
+	url = git@github.com:devangel77b/426davalur-lab2.1.git
