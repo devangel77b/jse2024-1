@@ -1,0 +1,38 @@
+\documentclass[letterpaper,11pt,twoside,print]{confproc}
+
+\renewcommand{\procpdfauthor}{Dennis Evangelista, Manalapan High School}
+\renewcommand{\procpdftitle}{Journal of Science \& Engineering}
+\renewcommand{\procchead}{}
+\renewcommand{\proclhead}{\em\small\procpdftitle}
+
+\author{\procpdfauthor}
+\title{\procpdftitle}
+\date{\today}
+\renewcommand{\PAPERPATH}{papers}
+
+\makeindex
+
+\begin{document}
+\frontmatter
+\setcounter{page}{1}
+\pdfbookmark[0]{Preamble}{preamble}
+\pdfbookmark[1]{Cover}{cover}
+\maketitle
+\newpage
+
+\otherpagestyle
+\tableofcontents
+
+\section{Forward}
+
+\mainmatter
+% stuff here
+\procpaper[switch=25,
+title={Title here},
+author={Miguel Arenas and friends},
+index={\index{puppy}},
+]{/426marenas-lab2.1/arenas}
+
+\backmatter
+\insertindex
+\end{document}
