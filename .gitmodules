@@ -1,0 +1,3 @@
+[submodule "arenas"]
+	path = arenas
+	url = git@github.com:devangel77b/426marenas-lab2.1.git
