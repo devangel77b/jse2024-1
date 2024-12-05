@@ -25,3 +25,6 @@
 [submodule "yagnyeshwaran"]
 	path = yagnyeshwaran
 	url = git@github.com:devangel77b/426syagnyeshwaran-lab2.1.git
+[submodule "canada"]
+	path = canada
+	url = git@github.com:devangel77b/426ccanada-lab2.1.git
