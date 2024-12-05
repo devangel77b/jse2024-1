@@ -4,3 +4,24 @@
 [submodule "avalur"]
 	path = avalur
 	url = git@github.com:devangel77b/426davalur-lab2.1.git
+[submodule "barone"]
+	path = barone
+	url = git@github.com:devangel77b/425abarone-lab2.1.git
+[submodule "govardhanen"]
+	path = govardhanen
+	url = git@github.com:devangel77b/426vgovardhanen-lab2.1.git
+[submodule "kedharnath"]
+	path = kedharnath
+	url = git@github.com:devangel77b/426skedharnath-lab2.1.git
+[submodule "kishore"]
+	path = kishore
+	url = git@github.com:devangel77b/426nkishore-lab2.1.git
+[submodule "krasnopolsky"]
+	path = krasnopolsky
+	url = git@github.com:devangel77b/426skrasnopolsky-lab2.1.git
+[submodule "perle"]
+	path = perle
+	url = git@github.com:devangel77b/426jperle-lab2.1.git
+[submodule "yagnyeshwaran"]
+	path = yagnyeshwaran
+	url = git@github.com:devangel77b/426syagnyeshwaran-lab2.1.git

@@ -1,42 +1,41 @@
-\documentclass[letterpaper,11pt,twoside,print,papers=countpages]{confproc}
+\documentclass[letterpaper,11pt,twoside,electronic,papers=countpages]{confproc}
 
 \renewcommand{\procpdfauthor}{Dennis Evangelista, Manalapan High School}
 \renewcommand{\procpdftitle}{Journal of Science \& Engineering}
 \renewcommand{\procchead}{}
-\renewcommand{\proclhead}{\em\small\procpdftitle}
+\renewcommand{\proclhead}{}
 
 \author{\procpdfauthor}
 \title{\procpdftitle}
 \date{\today}
-\renewcommand{\PAPERPATH}{papers}
+\renewcommand{\PAPERPATH}{.}
 
 \makeindex
 
 \begin{document}
 \frontmatter
-\setcounter{page}{1}
-\pdfbookmark[0]{Preamble}{preamble}
-\pdfbookmark[1]{Cover}{cover}
-\maketitle
-\newpage
-
+%\setcounter{page}{1}
+%\pdfbookmark[0]{Preamble}{preamble}
+%\pdfbookmark[1]{Cover}{cover}
+%\maketitle
+%\newpage
 \otherpagestyle
 \tableofcontents
 
 %\section{Forward}
 
 \mainmatter
-\procpaper[switch=1,%
+\procpaper[%
 title={Testing Newton's second law in an accelerating system},
 author={Miguel Arenas, Callie Butash, Jake Chin, Kriti Malhotra, Grace Nealon, Petra Rofman},
-index={\index{Arenas, Miguel}, \index{Butash, Callie}},
-]{/426marenas-lab2.1/arenas}
+index={\index{Arenas, Miguel}\index{Butash, Callie}\index{Chin, Jake}\index{Malhotra, Kriti}\index{Nealon, Grace}\index{Rofman, Petra}},
+]{/arenas/arenas}
 
-\procpaper[switch=2,%
+\procpaper[%
 title={Verifying Newton's second law: the relationship between force and acceleration},
 author={Dia Avalur, Srilekha Dantu, Jophy Lin, Anika Tokala},
-index={\index{Avalur, Dia}, \index{Dantu, Srilekha}},
-]{/426davalur-lab2.1/avalur}
+index={\index{Avalur, Dia}\index{Dantu, Srilekha}\index{Lin, Jophy}\index{Tokala, Anika}},
+]{/avalur/avalur}
 
 \backmatter
 \insertindex
