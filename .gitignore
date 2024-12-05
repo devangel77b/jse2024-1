@@ -6,3 +6,6 @@
 *.npc
 *.synctex.gz
 *.toc
+*.nps
+*.synctex(busy)
+*~
