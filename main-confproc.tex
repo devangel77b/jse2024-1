@@ -1,9 +1,10 @@
-\documentclass[letterpaper,11pt,twoside,electronic,papers=countpages]{confproc}
+\documentclass[letterpaper,11pt,twoside,electronic,headers=exceptpdf,papers=countpages]{confproc}
 
 \renewcommand{\procpdfauthor}{Dennis Evangelista, Manalapan High School}
 \renewcommand{\procpdftitle}{Journal of Science \& Engineering}
 \renewcommand{\procchead}{}
 \renewcommand{\proclhead}{}
+\renewcommand{\proccfoot}{\thepage}
 
 \author{\procpdfauthor}
 \title{\procpdftitle}
@@ -11,6 +12,9 @@
 \renewcommand{\PAPERPATH}{.}
 
 \makeindex
+
+\usepackage{helvet,mathptmx}
+\renewcommand{\contentsname}{{\scriptsize\sffamily Journal of\medskip}\\{\Huge Science and Engineering}}
 
 \begin{document}
 \frontmatter
@@ -20,6 +24,7 @@
 %\maketitle
 %\newpage
 \otherpagestyle
+\addtocontents{toc}{Volume 1, Number 1, \today\bigskip}
 \tableofcontents
 
 %\section{Forward}
