@@ -1,4 +1,4 @@
-\documentclass[letterpaper,11pt,twoside,electronic,headers=exceptpdf,papers=countpages]{confproc}
+\documentclass[letterpaper,11pt,twoside,electronic,headers=exceptpdf,papers=countpages,linkcolor=blue]{confproc}
 
 \renewcommand{\procpdfauthor}{Dennis Evangelista, Manalapan High School}
 \renewcommand{\procpdftitle}{Journal of Science \& Engineering}
@@ -15,18 +15,39 @@
 
 \usepackage{pdfpages}
 \usepackage{helvet,mathptmx}
-\renewcommand{\contentsname}{{\scriptsize\sffamily Journal of\medskip}\\{\Huge Science \& Engineering}}
+\renewcommand{\contentsname}{{\normalfont\sffamily Journal of\medskip}\\{\normalfont\Huge Science \& Engineering}}
+\usepackage{verse}
 
 \begin{document}
 \frontmatter
-%\setcounter{page}{1}
-%\pdfbookmark[0]{Preamble}{preamble}
-%\pdfbookmark[1]{Cover}{cover}
+\setcounter{page}{1}
+\pdfbookmark[0]{Preamble}{preamble}
+\pdfbookmark[1]{Cover}{cover}
 %\maketitle
-%\newpage
+\index{Kilaru, Rishith}\includepdf[pages=1]{cover}
+\newpage
+Journal information here
+
 \otherpagestyle
-\addtocontents{toc}{Volume 1, Number 1, \today\bigskip}
+\addtocontents{toc}{Volume 1, Number 1, \today\bigskip\\}
+% The following hack is necessary to get Inside JS&E to be on back page 
+\begingroup
+\let\cleardoublepage=\clearpage
 \tableofcontents
+\addtocontents{toc}{\emph{From the cover:} Newton's second law relates force, mass, and acceleration and is often written as $\sum\vec{F}=m\vec{a}$. In this special issue of Journal of Science \& Engineering, researchers considered the validity of Newton's second law. \emph{Cover image: Rishith Kilaru.}\bigskip\\}
+%Inside J S\&E here
+%\section*{Inside J S\&E}
+%\addcontentsline{toc}{section}{Inside J S\& E}
+\vspace*{\fill}
+\begin{verse}
+String pulls cart down track\\
+Weight provides a downward force\\
+$\vec{F}$ equals $m$ $\vec{a}$
+\end{verse}
+\vspace{2ex}\raggedleft{Miguel Arenas, Callie Butash, Jake Chin, Kriti Malhotra,\\Grace Nealon, and Petra Rofman}\par
+\index{Arenas, Miguel}\index{Butash, Callie}\index{Chin, Jake}\index{Malhotra, Kriti}\index{Nealon, Grace}\index{Rofman, Petra}
+\vspace*{\fill}
+\endgroup
 
 \mainmatter
 \procpaper[%
@@ -90,6 +111,9 @@ index={\index{Yagnyeshwaran, Sagarika}\index{Chen, Emily}\index{Kabatsky, Andrew
 ]{/yagnyeshwaran/yagnyeshwaran}
 
 \backmatter
+%\bibliographystyle{plain}
+%\bibliography{\procbibfile}
+
 \insertindex
 
 % get on even page?!
