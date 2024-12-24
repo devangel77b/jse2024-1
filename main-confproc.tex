@@ -26,7 +26,7 @@
 %\maketitle
 \index{Kilaru, Rishith}\includepdf[pages=1]{cover}
 \newpage
-\noindent Journal of Science Engineering (J S\&E) publishes high quality original research, short articles, articles, letters, and reports by promising students of science and engineering.  Our impact factor is 20 and our $h$-index is 200.  J S\&E is a publication of the Freehold Regional High School District Press. 
+\noindent Journal of Science \& Engineering (J S\&E) publishes high quality original research, short articles, articles, letters, and reports by promising students of science and engineering.  Our impact factor is 20 and our $h$-index is 200.  J S\&E is a publication of the Freehold Regional High School District Press. 
 \vspace{2ex}
 
 %\masthead here
@@ -74,14 +74,15 @@
 \otherpagestyle
 \addtocontents{toc}{Volume 1, Number 1, \today\bigskip\\}
 % The following hack is necessary to get Inside JS&E to be on back page 
-\begingroup
-\let\cleardoublepage=\clearpage
+%\begingroup
+%\let\cleardoublepage=\clearpage
 \tableofcontents
 \addtocontents{toc}{\emph{From the cover:} Newton's second law relates force, mass, and acceleration and is often written as $\sum\vec{F}=m\vec{a}$. In this special issue of Journal of Science \& Engineering, researchers considered the validity of Newton's second law. \emph{Cover image: Rishith Kilaru.}\bigskip\\}
+
 %Inside J S\&E here
 %\section*{Inside J S\&E}
-%\addcontentsline{toc}{section}{Inside J S\& E}
 \vspace*{\fill}
+\addcontentsline{toc}{section}{Inside J S\&E\\\emph{Miguel Arenas, Callie Butash, Jake Chin, Kriti Malhotra, Grace Nealon, and Petra Rofman}}
 \begin{verse}
 String pulls cart down track\\
 Weight provides a downward force\\
@@ -90,7 +91,6 @@ $\vec{F}$ equals $m$ $\vec{a}$
 \vspace{2ex}\raggedleft{Miguel Arenas, Callie Butash, Jake Chin, Kriti Malhotra,\\Grace Nealon, and Petra Rofman}\par
 \index{Arenas, Miguel}\index{Butash, Callie}\index{Chin, Jake}\index{Malhotra, Kriti}\index{Nealon, Grace}\index{Rofman, Petra}
 \vspace*{\fill}
-\endgroup
 
 \mainmatter
 \procpaper[%
