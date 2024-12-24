@@ -7,3 +7,7 @@ Haiku
 String pulls cart down track
 Weight provides a downward force
 F equals m a
+
+
+
+This cover journal was my first time rendering an image in Blender, as I have only used it before to create models. The cover is based on the lab setup commonly used in the proofs: a cart on a track connected to a weight by a string that rested on the pulley, but in a simplified style.
