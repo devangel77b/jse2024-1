@@ -9,7 +9,7 @@
 
 \author{\procpdfauthor}
 \title{\procpdftitle}
-\date{\today}
+\date{December 6, 2024}
 \renewcommand{\PAPERPATH}{.}
 
 \makeindex
@@ -30,7 +30,9 @@
 \input{masthead.tex}
 
 \otherpagestyle
-\addtocontents{toc}{Volume 1, Number 1, \today\bigskip\\}
+\makeatletter
+\addtocontents{toc}{Volume 1, Number 1, \@date\bigskip\\}
+\makeatother
 \tableofcontents
 \addtocontents{toc}{\emph{From the cover:} Newton's second law relates force, mass, and acceleration and is often written as $\sum\vec{F}=m\vec{a}$. In this special issue of Journal of Science \& Engineering, researchers considered the validity of Newton's second law. \emph{Cover image: Rishith Kilaru.}\bigskip\\}
 
